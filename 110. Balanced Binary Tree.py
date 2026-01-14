@@ -1,4 +1,4 @@
-# Time: O(nlogn)
+# Time: O(n^2)
 # Space: O(h)
 
 # At first we put the recursion on isBalanced to go on each node and then call the height funtion on each node
