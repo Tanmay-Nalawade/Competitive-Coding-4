@@ -28,7 +28,6 @@ class Solution:
         while head1 and head2:
             if head1.val != head2.val:
                 return False
-                break
             head1 = head1.next
             head2 = head2.next
         return True
